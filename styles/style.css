@@ -1,4 +1,54 @@
 * {
   font-family: "Work Sans", sans-serif;
+  margin: 0px;
+  overflow-x: hidden;
+}
+
+body {
   background: #fff;
+}
+
+/* banner design */
+.header {
+  background-image: url("../Images/banner1.png");
+  max-height: 800px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 210px 15vw 160px 50vw;
+}
+.banner {
+  max-width: 525px;
+  max-height: 450px;
+  text-align: right;
+}
+.moto {
+  color: #151414;
+  font-size: 65px;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+
+.moto-details {
+  color: #444343;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-bottom: 30px;
+}
+
+/* button style */
+.btn-primary {
+  padding: 20px auto;
+  height: 65px;
+  width: 165px;
+  border: 0;
+}
+
+.contact {
+  border-radius: 5px;
+  background: #f15b22;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
 }
